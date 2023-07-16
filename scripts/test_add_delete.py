@@ -35,6 +35,7 @@ class TestLogin:
         allure.attach(utils.UtilsDriver.get_steam_driver().get_screenshot_as_png(), "screen capture", allure.attachment_type.PNG)
         assert total_amount == expect
 
+#add comment
 
 
 
