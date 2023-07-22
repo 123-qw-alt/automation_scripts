@@ -44,7 +44,7 @@ def get_element(location):
 def input_text(location, text):
     wait = WebDriverWait(UtilsDriver.get_steam_driver(), 10, 1)
     element = wait.until(lambda x: x.find_element(*location))
-    element.clear()
+    element.clear() 
     element.send_keys(text)
 
 
